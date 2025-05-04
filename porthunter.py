@@ -1,6 +1,8 @@
 import socket 
 import threading
 
+print("Welcome to PortHunter")
+
 TARGET = input("Target IP: ")
 START_PORT = int(input("Start PORT: "))
 END_PORT = int(input("End PORT: "))
